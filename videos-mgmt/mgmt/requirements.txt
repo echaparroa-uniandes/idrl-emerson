@@ -1,0 +1,14 @@
+celery
+redis
+Flask
+Werkzeug
+moviepy
+Pillow==9.5.0
+ffmpeg-python
+ffmpeg
+opencv-python
+opencv-python-headless
+psycopg2-binary
+PyJWT==2.3.0
+google-cloud-storage
+google-cloud-pubsub

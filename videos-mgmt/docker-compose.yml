@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  mgmt:
+    build:
+      context: ./mgmt
+    command: python app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mgmt:/app
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
